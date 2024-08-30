@@ -16,9 +16,9 @@ public class OperadoresAritmeticos{
 	  int dobroDaIdade = 2 * suaIdade;
 	  System.out.println("Dobro da sua idade: " + dobroDaIdade);
 
-	  //Divisão
-	  int metadeSuaIdade = suaIdade / 2;
-  	  System.out.println("Metade da sua idade: " + metadeSuaIdade);
+	  //Modulo
+	  int restoDivisão = 7 % 2;
+  	  System.out.println("Resto da divisão: " + restoDivisão);
 
 	}
 }
