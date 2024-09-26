@@ -8,12 +8,12 @@ ser "truncado".
 Finalize o programa exibindo o peso total das cargas em inteiro.
 */
 public class desafioTiposPrimitivosEConversao {
-public static void main(String[] args) {
-double pesoCarga1 = 1033.49;
-double pesoCarga2 = 849.88;
-double soma = (double) pesoCarga1 + (double) pesoCarga2;
-int pesoTotalCargas = (int) soma;
-// O resultado deve ser 1883
-System.out.println("Peso total das cargas: " + pesoTotalCargas);
-}
+    public static void main(String[] args) {
+        double pesoCarga1 = 1033.49;
+        double pesoCarga2 = 849.88;
+        double soma = (double) pesoCarga1 + (double) pesoCarga2;
+        int pesoTotalCargas = (int) soma;
+        // O resultado deve ser 1883
+        System.out.println("Peso total das cargas: " + pesoTotalCargas);
+    }
 }

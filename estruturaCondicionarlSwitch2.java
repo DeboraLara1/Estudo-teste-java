@@ -9,7 +9,7 @@ public class estruturaCondicionarlSwitch2 {
         System.out.println("Digite um dia da semana (Ex: seg, ter, qua, etc)");
         String diaSemana = entrada.nextLine();
         String horarioFuncionamento;
-//Forma mais agil de fazer um switch sem precisar do breack, apartir do java 17
+        //Forma mais agil de fazer um switch sem precisar do breack, apartir do java 17
         switch (diaSemana) {
             case "seg" -> horarioFuncionamento = "Fechado";
             case "ter", "qua", "qui", "sex" -> horarioFuncionamento = "08:00 às 18:00";
